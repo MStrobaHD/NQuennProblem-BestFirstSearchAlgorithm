@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="indeks.png" />
+    <None Remove="indeks_black.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="indeks.png" />
+    <Resource Include="indeks_black.png" />
+  </ItemGroup>
+
+</Project>
